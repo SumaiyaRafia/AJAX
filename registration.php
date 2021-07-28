@@ -81,6 +81,7 @@
 		}
 	}
 
+
 	
 	function write($content) {
 			$resource = fopen(filepath, "a");
