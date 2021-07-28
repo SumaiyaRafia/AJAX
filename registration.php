@@ -80,6 +80,8 @@
 			}
 		}
 	}
+
+	
 	function write($content) {
 			$resource = fopen(filepath, "a");
 			$fw = fwrite($resource, $content . "\n");
